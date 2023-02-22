@@ -18,9 +18,9 @@ import Register from './pages/Register';
         <Routes>
             <Route path='/' element={<Layout/>}>
                 <Route index element={<Home/>}></Route>
-                <Route path='Login' element={<Login/>}></Route>
                 <Route path='Register' element={<Register/>}></Route>
             </Route>
+                <Route path='Login' element={<Login/>}></Route>
                 <Route path='*' element={<Notfound/>}></Route>
         </Routes>
     </BrowserRouter>
